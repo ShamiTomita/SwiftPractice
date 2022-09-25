@@ -73,3 +73,10 @@ while count > 0 {
     count -= 1
 }
 
+let files = ["me.jpg", "work.txt", "sophie.jpg"]
+for file in files {
+    if file.hasSuffix(".jpg") == false {
+        continue
+    }
+    print ("Found picture: \(file)")
+}
