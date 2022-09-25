@@ -12,6 +12,7 @@
 		DB121BC628E0C60200C9814B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB121BC528E0C60200C9814B /* ContentView.swift */; };
 		DB121BC828E0C60300C9814B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB121BC728E0C60300C9814B /* Assets.xcassets */; };
 		DB121BCB28E0C60300C9814B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB121BCA28E0C60300C9814B /* Preview Assets.xcassets */; };
+		DB121BD328E0C61900C9814B /* SwiftPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB121BD228E0C61900C9814B /* SwiftPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DB121BC728E0C60300C9814B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB121BCA28E0C60300C9814B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DB121BCC28E0C60300C9814B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB121BD228E0C61900C9814B /* SwiftPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DB121BC728E0C60300C9814B /* Assets.xcassets */,
 				DB121BCC28E0C60300C9814B /* Info.plist */,
 				DB121BC928E0C60300C9814B /* Preview Content */,
+				DB121BD228E0C61900C9814B /* SwiftPractice.swift */,
 			);
 			path = SwiftPRactice;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				DB121BC228E0C60200C9814B /* SwiftPRacticeApp.swift in Sources */,
 				DB121BC428E0C60200C9814B /* SwiftPRacticeDocument.swift in Sources */,
+				DB121BD328E0C61900C9814B /* SwiftPractice.swift in Sources */,
 				DB121BC628E0C60200C9814B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
