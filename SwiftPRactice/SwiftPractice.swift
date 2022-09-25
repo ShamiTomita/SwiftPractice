@@ -22,3 +22,35 @@ enum UIStyle {
 }
 
 var style: UIStyle = .light
+
+/*if ,else if ,else*/
+let age = 21
+
+if age < 18 {
+    print("You cant Drink yet")
+} else if age > 18 && age < 21 {
+    print("You can almost drink")
+}else{
+    print("PARTY")
+}
+
+/*case switch*/
+
+enum Weather {
+    case sun, rain, wind
+}
+let forecast = Weather.sun
+
+switch forecast{
+case .sun:
+    print("a nice day")
+case .rain:
+    print("pack an umbrella")
+default:
+    print("at least you're alive")
+}
+
+/*ternary operation*/
+var dog = "shiba"
+var isShiba = dog == "shiba" ? "Yes" : "No"
+
