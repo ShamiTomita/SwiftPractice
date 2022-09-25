@@ -54,3 +54,22 @@ default:
 var dog = "shiba"
 var isShiba = dog == "shiba" ? "Yes" : "No"
 
+/*for loop*/
+
+let platfroms = ["iOs", "macOs"]
+for os in platfroms {
+    print("Swift works on \(os)")
+}
+
+for i in 1...12{
+    print("5 x \(i) is \(5*1)")
+}
+
+/*while*/
+
+var count = 10
+while count > 0 {
+    print("\(count)...")
+    count -= 1
+}
+
