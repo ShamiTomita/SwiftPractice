@@ -95,3 +95,35 @@ func rollDice()-> Int {
 }
 
 let result = rollDice()
+
+/*tuples store a fixed number of items of a specific type*/
+
+func getUser()-> (firstName: String, lastName:String){
+    (firstName: "Stefanie", lastName: "Germanotta")
+}
+let user = getUser()
+print("Name: \(user.firstName) \(user.lastName)")
+
+/*destructure tuples, or only get a select out of the tuple*/
+
+let (firstName, _) = getUser()
+print ("Name:\(firstName)")
+
+/*missing parameters*/
+
+func isUppercase(_, string:String) -> Bool {
+    string == string.uppercased()
+}
+
+let string = "HELLOW WORLD"
+let result = (isUppercase(string)
+
+/*internal, external*/
+
+func printTimesTable(for number: Int){
+    for i in 1...12 {
+        print("\(i) x \(number) is \(i*number)")
+    }
+}
+
+printTimesTable(for: 5)
