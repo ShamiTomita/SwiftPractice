@@ -80,3 +80,18 @@ for file in files {
     }
     print ("Found picture: \(file)")
 }
+
+/*functions*/
+
+func printTimesTable(number: Int) {
+    for i in 1...12{
+        print("\(i) x \(number) is \(i*number)")
+    }
+}
+
+func rollDice()-> Int {
+    /*for single lines of code, you dont need a return statement, so we could remove the return below*/
+    return Int.random(in: 1...6)
+}
+
+let result = rollDice()
