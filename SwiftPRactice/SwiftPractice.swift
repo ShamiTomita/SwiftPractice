@@ -58,7 +58,7 @@ var isShiba = dog == "shiba" ? "Yes" : "No"
 
 let platfroms = ["iOs", "macOs"]
 for os in platfroms {
-    print("Swift works on \(os)")
+    print("Swift works on \(ios)")
 }
 
 for i in 1...12{
