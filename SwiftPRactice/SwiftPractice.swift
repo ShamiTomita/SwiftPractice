@@ -72,6 +72,10 @@ while count > 0 {
     print("\(count)...")
     count -= 1
 }
+while count > 0 {
+    print("\(count)...")
+    count -= 1
+}
 
 let files = ["me.jpg", "work.txt", "sophie.jpg"]
 for file in files {
